@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BERES (Number Guest)</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body id="body">
+    <audio controls id="audioFalse">
+      <source src="./audio/false.wav" type="audio/wav">
+      Your browser does not support the audio element.
+    </audio>
+
+    <audio controls id="audioTrue">
+      <source src="./audio/true.wav" type="audio/wav">
+      Your browser does not support the audio element.
+    </audio>
+
+    <div id="rules">
+      <h3>RULES</h3>
+      <br>
+      <ul>
+        <li>Guest The Number (1 - 20) In The Box With "?" Sign And Compare With The Other Box</li>
+        <li>There Is 5 Operation Below The Box. Choose One That You Think Is True</li>
+        <li>Equal Sign Is Has A Big Points If You Guest Correctly</li>
+        <li>You Just Can Do Mistake For 3 Times</li>
+        <li><strong>Enjoy This Game !</strong></li>
+      </ul>
+    </div>
+
+    <button id="starter" style="cursor: pointer;"><p>START</p></button>
+    
+    <div id="over">
+      <p style="cursor: pointer;">GAME OVER</p>
+    </div>
+
+  <section id="viewNumber">
+    <div class="guest">
+      <p>?</p>
+    </div>
+
+    <div class="number">
+      <p>?</p>
+    </div>
+  </section>
+  
+<sction id="result">
+  <div class="score">
+    <p class="p1">SCORE:</p>
+    <p id="scoring">0</p>
+  </div>
+
+  <div class="live">
+    <p class="p1">CHANCE:</p>
+    <p id="chance" style="color: darkgreen;">3 MORE LEFT</p>
+  </div>
+</sction>
+
+  <section id="viewChoosen">
+    <div class="more">
+    <img src="./img/more.png" alt="more" height="15px">
+    </div>
+
+    <div class="moreequal">
+    <img src="./img/moreequal.png" alt="moreequal" height="15px">
+    </div>
+
+    <div class="equal">
+    <img src="./img/equal.png" alt="equal" height="15px">
+    </div>
+
+    <div class="lessequal">
+    <img src="./img/lessequal.png" alt="lessequal" height="15px">
+    </div>
+    
+    <div class="less">
+    <img src="./img/less.png" alt="less" height="15px">
+    </div>
+</section>
+
+  <div id="final">
+    <h3>Statistic</h3>
+    <table>
+      <tr>
+        <td class="td1">Name</td>
+        <td id="tdc">:input</td>
+      </tr>
+      <tr>
+        <td class="td1">Total Answer</td>
+        <td id="tda">:input</td>
+      </tr>
+      <tr>
+        <td class="td1">Score</td>
+        <td id="tdb">:input</td>
+      </tr>
+    </table>
+    <p id="restart" style="cursor: pointer;"><a href="#">(Click Here To Replay)</a></p>
+  </div>
+
+<script src="index.js"></script>
+</body>
+</html>
