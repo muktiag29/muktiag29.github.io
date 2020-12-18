@@ -13,14 +13,14 @@ audio {
 
 #rules {
   display: inline-block;
-  width: 60%;
+  width: 70%;
   height: 40%;
   background-color: pink;
   font-size: 25px;
   position: fixed;
   top: 10%;
-  left: 20%;
-  right: 20%;
+  left: 15%;
+  right: 15%;
   border: solid 5px rgb(150, 54, 70);
   text-align: center;
 }
@@ -211,4 +211,9 @@ audio {
 
 #final p {
   margin-top: 40px;
+}
+
+#restart a:hover {
+  font-size: 20px;
+  font-weight: bold;
 }
